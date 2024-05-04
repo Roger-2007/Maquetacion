@@ -18,9 +18,9 @@ header {
     width: 100%;
     height: 53px;
     background-color: rgb(14, 14, 14);
-
+    top: 0;
     color: white;
-    position: sticky;
+    position: fixed;
     display: flex;
 
 
@@ -109,7 +109,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    margin-bottom: 25px;
+
 }
 
 .portada {
@@ -126,8 +126,8 @@ header {
     max-width: 400px;
 
 
-    margin: 200px auto;
-    height: calc(40vw * 40 / 100);
+    margin: 250px auto;
+    height: auto;
     font-size: 40px;
 
     text-align: center;
@@ -164,12 +164,12 @@ header {
 
 .galeria .imagenesgaleria {
 
-background-color: white;
-border: 1px rgb(201, 201, 201) solid;
-    padding: 8px;
+    background-color: white;
+    border: 1px rgb(201, 201, 201) solid;
+    padding: 15px;
     border-radius: 2px;
     width: 100%;
-    width: 380px;
+    max-width: 380px;
     height: 380px;
 
     height: auto;
@@ -198,7 +198,7 @@ border: 1px rgb(201, 201, 201) solid;
     color: black;
     text-align: center;
     font-size: 24px;
-    
+
 
 }
 
@@ -208,7 +208,8 @@ border: 1px rgb(201, 201, 201) solid;
     text-align: center;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    margin: 40px auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 
@@ -255,7 +256,7 @@ border: 1px rgb(201, 201, 201) solid;
     border-radius: 25px;
     border: black 1px solid;
     width: 50%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .planta .contenidoplanta .btncomprar .comprar {
@@ -267,6 +268,52 @@ border: 1px rgb(201, 201, 201) solid;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
+
+/*Sobre Nosotros*/
+
+.sobrenosotrosfondo {
+    background-image: url(images/6075834.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobrenosotrosfondo h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 80px;
+
+}
+
+.sobrenosotros {
+    display: flex;
+    justify-content: center;
+}
+
+.sobrenosotros .nosotros {
+    background-color: white;
+    border: rgb(153, 153, 153) 2px solid;
+    border-radius: 8px;
+    width: 85%;
+    margin: 70px auto;
+
+}
+
+.sobrenosotros .nosotros .contenidosobrenosotros {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Trochut";
+    margin: 45px 30px;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:900px) {
