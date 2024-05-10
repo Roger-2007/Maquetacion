@@ -22,12 +22,13 @@ header {
     color: white;
     position: fixed;
     display: flex;
+    z-index: 1;
 
 
 
 }
 
-.logo{
+.logo {
 
     display: flex;
     margin-left: 1.25rem;
@@ -40,7 +41,7 @@ header {
     align-content: center;
 
     margin: 0 auto;
- 
+
     text-align: center;
 
 }
@@ -48,7 +49,7 @@ header {
 .navegacion a {
     color: white;
     text-decoration: none;
-font-size:1.125rem;
+    font-size: 1.125rem;
 
     margin: .4375rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -100,6 +101,86 @@ font-size:1.125rem;
     transform: scale(1.2);
     transition: all 0.5s;
 }
+
+
+/*Footer*/
+.footer {
+    background-color: black;
+    padding: .625rem 0;
+
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.125rem;
+    padding: 2.1875rem 0;
+}
+
+.footerlogo{
+    text-align: center;
+}
+.footerlogo img {
+    width: 15.625rem;
+
+}
+
+.footercontenido .footercontacto {
+    display: flex;
+    gap: 3.75rem .9375rem;
+}
+
+.footercontenido img {
+    width: 2.1875rem;
+
+}
+
+.footercontenido {
+    width: 1.5625rem;
+    padding: 0 .9375rem;
+
+
+}
+
+.footercontenido h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: .9375rem;
+    font-weight: 500;
+    padding-bottom: .625rem;
+    
+
+}
+
+.footercontenido ul li a {
+    font-size: 1.0625rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: .9375rem;
+    transition: all .3s ease;
+}
+
+.footercontenido ul li a:hover {
+    padding-left: .3125rem;
+    text-decoration: underline;
+}
+
+.footercontenido img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.derechosdeautor {
+    color: white;
+    text-align: center;
+}
+
 
 /*Inicio*/
 
@@ -171,19 +252,19 @@ font-size:1.125rem;
     padding: .9375rem;
     border-radius: .125rem;
     width: 100%;
-    max-width: 23.75rem;
-    height: 23.75rem;
+    max-width: 21.25rem;
+    height: 21.25rem;
 
-    height: auto;
-    overflow: auto;
+    
+   
     /* aspect-ratio: 700/1094; */
 
 
 }
 
 .galeria .imagenesgaleria .contenidogaleria img {
-    width: 21.25rem;
-    height: 21.25rem;
+    width: 18.75rem;
+    height: 18.75rem;
     display: block;
     margin: .3125rem auto;
 }
@@ -201,10 +282,11 @@ font-size:1.125rem;
     text-align: center;
     font-size: 1.5rem;
 }
-.vermas a:hover{
-   
+
+.vermas a:hover {
+
     background-color: darkgoldenrod;
-    color:white;
+    color: white;
     transition: all 0.2s;
     transform: scale(1.03);
 }
@@ -217,6 +299,7 @@ font-size:1.125rem;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 7%;
     margin-bottom: 1.875rem;
+    
 }
 
 
@@ -258,13 +341,13 @@ font-size:1.125rem;
     font-size: 1.5625rem;
 }
 
-.btncomprar a{
+.btncomprar a {
     background-color: rgb(201, 155, 37);
     border-radius: 25px;
     border: black 1px solid;
     width: 50%;
     margin: 1.875rem auto;
- font-size: 1.4375rem;
+    font-size: 1.4375rem;
     padding: .1875rem;
     color: white;
     display: block;
@@ -274,10 +357,10 @@ font-size:1.125rem;
 }
 
 
-.btncomprar a:hover{
-   
+.btncomprar a:hover {
+
     background-color: darkgoldenrod;
-    color:black;
+    color: black;
     transform: scale(1.03);
     transition: all 0.2s;
 }
@@ -287,12 +370,14 @@ font-size:1.125rem;
 .sobrenosotrosfondo {
     background-image: url(images/6075834.jpg);
     height: auto;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 
-.sobrenosotrosfondo h2{
+.sobrenosotrosfondo h2 {
     font-size: 1.875rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -320,11 +405,11 @@ font-size:1.125rem;
     text-align: center;
     font-family: "Trochut";
     margin: 2.8125rem 1.875rem;
-  
+
 }
 
 /*Contacto*/
-.contactotitulofondo{
+.contactotitulofondo {
     background: url(images/imagenparacontacto.jpg);
     height: auto;
     background-attachment: fixed;
@@ -333,49 +418,73 @@ font-size:1.125rem;
     margin-top: 3.125rem;
     
 
+
 }
-.contenidocontacto{
+
+.contenidocontacto {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
+
+
 }
-.contenidocontacto h2{
+
+.contenidocontacto h2 {
     text-align: center;
     margin: 4.375rem auto;
     padding: .3125rem;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0,0.8);
-    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     font-size: 2.6875rem;
-    font-weight:lighter;
+    font-weight: lighter;
 }
-.tituloscontacto{
+
+.tituloscontacto {
     text-align: center;
     margin: 2.5rem auto;
     font-size: 1.25rem;
 }
 
-.contactocontenido .imagenescontacto{
+.contactocontenido .imagenescontacto {
     display: flex;
     justify-content: center;
     gap: .9375rem 4.375rem;
-    
-}
-.imagenescontacto img{
-    width: 6.25rem;
-    height: 6.25rem;
+
 }
 
-.textocontacto{
-    font-size:1.5625rem;
+.imagenescontacto img {
+    width: 6.25rem;
+    
+}
+.imagenescontacto img:hover{
+    transform:scale(1.08);
+    transition: all .3s;
+    
+}
+
+.textocontacto {
+    font-size: 1.5625rem;
     text-align: center;
 }
-.mapa{
+.textocontacto a{
+    text-decoration: none;
+}
+.textocontacto a:hover{
+    color: rgb(2, 2, 92);
+}
+.textocontacto a:active{
+    text-decoration: underline;
+}
+
+.mapacontacto {
+   
     margin: 0 auto;
     text-align: center;
-    
+}
+.mapacontacto .mapa{
+    width:23.75rem;
+    height: 17.5rem;
 }
 
 
@@ -435,17 +544,39 @@ font-size:1.125rem;
 
 
 
-@media screen and (max-width: 1920px){
-    html{
-        font-size: 24px;
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 26px;
     }
-    
-} @media screen and (max-width:1440px){
-    html{
+
+}
+
+@media screen and (max-width:1440px) {
+    html {
         font-size: 20px;
     }
-} @media screen and (max-width:1366px){
-    html{
+}
+
+@media screen and (max-width:1366px) {
+    html {
         font-size: 16px;
     }
+}
+
+@media screen and (max-width:800px) {
+    .footer-row {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 15px 0;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+         
+    }
+
 }
