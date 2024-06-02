@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gloriosas Hojas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -22,77 +20,40 @@
         <div class="btnportada">
 
             <a href="#"><img id="carrito" src="images/carrito.png" alt="Carrito"></a> 
-           <a href="iniciosesion.html"><img src="images/perfil.png" alt="Perfil"></a> 
+            <a href="iniciosesion.html"><img src="images/perfil.png" alt="Perfil"></a> 
 
         </div>
         </div>
-
-
     </header>
-
     <main>
-        <div class="indexfondo">
-            <article class="portada">
-                <div class="portadacuadro">
-                    <div class="contenidoportada">
-                        <p>Encuentra las plantas mas hermosas y variadas de Medellín a grandes precios</p>
-                    </div>
-                </div>
-
-
-
-
-
-            </article>
+        <div class="iniciosesioncontenedor">
+       <h2>INICIAR SESIÓN</h2>
+       <form action="">
+        <div class="iniciosesion">
+        <label for="acceder">Correo electronico</label>
+        <input type="email" name="acc" id="acceder" required>
+        <label for="contraseñain">Contraseña</label>
+        <input type="password" name="pass" id="contraseñain" minlength="8" required>
+        <div class="recordar">
+            <input type="checkbox" name="recordarme" id="recuerdame">
+        <label for="recuerdame">Recuérdame</label>
         </div>
+        
+        
+        <input type="submit" value="ACCEDER" id="iniciarbtn">
 
-
-        <div class="indexfondo2">
-            <h2>NUESTRA GALERIA</h2>
-            <div class="galeria">
-
-
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-1.jpg" alt="foto1">
-                    </div>
-                </div>
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-2.jpg" alt="foto2">
-                    </div>
-                </div>
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-3.jpg" alt="foto3">
-                    </div>
-                </div>
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-4.jpg" alt="foto4">
-                    </div>
-                </div>
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-5.jpg" alt="foto5">
-                    </div>
-                </div>
-                <div class="imagenesgaleria">
-                    <div class="contenidogaleria">
-                        <img src="images/imagen-6.jpg" alt="foto6">
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="vermas">
-                <a href="Vivero.html">VER MÁS</a>
-            </div>
         </div>
-
+        
+        <a href="#">¿Olvidaste la contraseña?</a>
+        <div class="crearcuenta">
+            <a href="#">Crear Cuenta </a>
+        </div>
+    </div>
+       </form>
+       
+    </div>
+    
     </main>
-
     <footer class="footer">
         <div class="contenedor">
             <div class="footer-row">
@@ -135,5 +96,4 @@
 
     </footer>
 </body>
-
 </html>

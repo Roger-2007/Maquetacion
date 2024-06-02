@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-             <img src="images/Logo-GloriosasHojas.png" alt="Logo">
+            <img src="images/Logo-GloriosasHojas.png" alt="Logo">
         </div>
         <div class="navegacion">
             <a href="index.html">INICIO</a>
@@ -21,8 +21,8 @@
         </div>
         <div class="btnportada">
 
-            <img id="carrito" src="images/carrito.png" alt="Carrito">
-            <img src="images/perfil.png" alt="Perfil">
+            <a href="#"><img id="carrito" src="images/carrito.png" alt="Carrito"></a> 
+            <a href="iniciosesion.html"><img src="images/perfil.png" alt="Perfil"></a> 
 
         </div>
         </div>
@@ -65,13 +65,70 @@
             </div>
 
 
-            <div class="tituloscontacto">
+            <!-- <div class="tituloscontacto">
                 <h2>CORREO ELECTRONICO</h2>
             </div>
             <div class="textocontacto">
                 <a href="mailto:rogerarenas81@outlook.es">rogerarenas81@outlook.es</a>
+            </div> -->
+            <div class="tituloscontacto">
+<h2>Contactanos</h2>
             </div>
+            
+            
+            <form action="">
+            <div class="encuestamensaje">
 
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nom" id="nombre" required>
+                <label for="telefono">Numero de teléfono</label>
+                <input type="tel" name="tel" id="telefono" maxlength="10" pattern="[0-9]{10}" required>
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="em" id="email" required>
+                <label for="ced">Cedula</label>
+                <input type="tel" name="ced" id="ced" pattern="[0-9]{1,}" required>
+            </fieldset>
+            <label for="ciudad">Ciudad</label>
+            <select name="Ciu" id="ciudad" required>
+            <option value="Medellin">Medellín</option>          
+            <option value="Bogota">Bogotá</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cartagena">Cartagena</option>
+            </select>
+                <!-- Categoria del problema -->
+                <div class="radio">
+                    <input type="radio" name="opcdes" id="peticion" required>
+                    <label for="peticion">Petición</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="opcdes" id="queja" required>
+                    <label for="queja">Queja</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="opcdes" id="reclamo" required>
+                    <label for="reclamo">Reclamo</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="opcdes" id="sugerencia" required>
+                    <label for="sugerencia">Sugerencia</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="opcdes" id="felicitacion" required>
+                    <label for="felicitacion">Felicitación</label>
+                </div>
+
+                <label for="des">Descripción</label>
+                <input type="text" name="des" id="des" required>
+                    
+                <input  type="submit" value="Enviar" id="enviar">
+
+
+
+
+
+            </div>
+            </form>
             <div class="tituloscontacto">
                 <h2>NUESTRA UBICACIÓN</h2>
 
@@ -79,13 +136,13 @@
             <div class="mapacontacto">
                 <iframe class="mapa"
                     src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sco!4v1715224430952!5m2!1ses-419!2sco!6m8!1m7!1sVlU8VQlm1H31uItDwfI8Xg!2m2!1d6.281235949694657!2d-75.61515744595766!3f340.18042!4f0!5f0.7820865974627469"
-                     style="border:0;" allowfullscreen="" loading="lazy"
+                    style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
     </main>
-    
+
     <footer class="footer">
         <div class="contenedor">
             <div class="footer-row">
