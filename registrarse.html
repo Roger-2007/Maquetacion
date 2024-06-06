@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gloriosas Hojas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
+<body class="fondoregistrarse">
     <header>
         <div class="logo">
             <img src="images/Logo-GloriosasHojas.png" alt="Logo">
@@ -26,45 +24,52 @@
 
         </div>
         </div>
-
-
     </header>
-
-
     <main>
-        <div class="sobrenosotrosfondo">
+       <div class="contenedorregistrarse">
+       <h2 id="crearcuentatitulo">Crear Cuenta</h2>
+        <form action="iniciosesion.html">
+            <div class="registro">
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nom" id="nombre" required>
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="em" id="email" required>
+                <label for="contraseñareg">Contraseña</label>
+                <input type="password" name="pass" id="contraseñareg" minlength="8" required>
+                <label for="contraseñaagreg">Repita la contraseña</label>
+                <input type="rempassword" name="pass" id="contraseñaagreg" minlength="8" required>
+                <label for="ced">Cedula</label>
+                <input type="tel" name="ced" id="ced" pattern="[0-9]{1,}" required>
+                </fieldset>
+            <label for="ciudad">Ciudad</label>
+            <select name="Ciu" id="ciudad" required>
+            <option value="Medellin">Medellín</option>          
+            <option value="Bogota">Bogotá</option>
+            <option value="Cali">Cali</option>
+            <option value="Barranquilla">Barranquilla</option>
+            <option value="Cartagena">Cartagena</option>
+            </select>
+                <label for="telefono">Numero de teléfono</label>
+                <input type="tel" name="tel" id="telefono" maxlength="10" pattern="[0-9]{10}" required>
+               
+                <div class="btncrearcuenta">
+                                <input  type="submit" value="Crear Cuenta" id="btncrearcuenta">
+
+               </div>
+                
+            
+                
+                    
 
 
-                <h2>¿QUIENES SOMOS?</h2>
 
 
-
-
-            <div class="sobrenosotros">
-                <div class="nosotros">
-                    <div class="contenidosobrenosotros">
-                        <p>
-                            Somos una organización amante por la naturaleza, específicamente por las plantas de
-                            interior. Nuestro objetivo es facilitar a todas las personas que tienen nuestra misma pasión
-                            por las plantas a que puedan tener la de su elección con gran facilidad y a precios justos
-                        </p>
-                    </div>
-                </div>
 
             </div>
-
-
-
-
-
-
-        </div>
-
-
+            </form>
+       </div>
     </main>
-
-
-
     <footer class="footer">
         <div class="contenedor">
             <div class="footer-row">
@@ -107,5 +112,4 @@
 
     </footer>
 </body>
-
 </html>
