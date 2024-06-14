@@ -16,7 +16,7 @@ html {
 /*Header*/
 header {
     width: 100%;
-    height: 8%;
+    height: 50px;
     background-color: rgb(14, 14, 14);
     top: 0;
     color: white;
@@ -49,7 +49,7 @@ header {
 .navegacion a {
     color: white;
     text-decoration: none;
-    font-size: 1.125rem;
+    font-size: 1.0938rem;
 
     margin: .4375rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -253,8 +253,9 @@ header {
     padding: .9375rem;
     border-radius: .125rem;
     width: 100%;
-    max-width: 21.25rem;
-    height: 21.25rem;
+    max-width: 320px;
+    height: 320px;
+    
 
 
 
@@ -264,8 +265,8 @@ header {
 }
 
 .galeria .imagenesgaleria .contenidogaleria img {
-    width: 18.75rem;
-    height: 18.75rem;
+    width: 280px;
+    height: 280px;
     display: block;
     margin: .3125rem auto;
 }
@@ -320,7 +321,7 @@ header {
     border-radius: 15px;
     border: rgb(205, 205, 205) 1px solid;
     width: 100%;
-    max-width: 20rem;
+    max-width: 310px;
     height: auto;
     overflow: auto;
     aspect-ratio: 700/1094;
@@ -336,12 +337,12 @@ header {
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
     font-family: "Trochut";
-    font-size: 1.875rem;
+    font-size: 30px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5625rem;
+    font-size: 25px;
 }
 
 .btncomprar a {
@@ -349,9 +350,9 @@ header {
     border-radius: 25px;
     border: black 1px solid;
     width: 50%;
-    margin: 1.875rem auto;
+    margin: 20px auto;
     font-size: 1.4375rem;
-    padding: .1875rem;
+    padding: 3px;
     color: white;
     display: block;
     text-align: center;
@@ -382,7 +383,7 @@ header {
 
 
 .sobrenosotrosfondo h2 {
-    font-size: 1.875rem;
+    font-size: 27px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 80px;
@@ -398,8 +399,8 @@ header {
     background-color: white;
     border: rgb(153, 153, 153) 2px solid;
     border-radius: .5rem;
-    width: 85%;
-    margin: 4.375rem auto;
+    width: 80%;
+    margin: 70px auto;
     margin-bottom: 12.5rem;
 
 }
@@ -790,12 +791,12 @@ h2 {
 
 
 
-@media screen and (min-width:1451px) and (max-width: 1920px) {
+@media screen and (min-width:1601px) and (max-width: 1920px) {
 
     /*Header*/
     header {
         width: 100%;
-        height: 6%;
+        height: 75px;
     }
 
     .logo {
@@ -816,15 +817,15 @@ h2 {
 
 
     .btnportada img {
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
         margin-right: 18px;
         margin-left: 5px;
     }
 
     #carrito {
-        width: 57px;
-        height: 57px;
+        width: 52px;
+        height: 52px;
     }
 
     /*Footer*/
@@ -833,7 +834,7 @@ h2 {
 
     }
 .contenedor{
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
     .footerlogo img {
@@ -1147,11 +1148,715 @@ h2 {
 
 }
 
-@media screen and (min-width:1367px) and (max-width:1440px) {
-    html {
-        font-size: 20px;
+@media screen and (min-width:1441px) and (max-width: 1600px) {
+
+    /*Header*/
+    header {
+        width: 100%;
+        height: 65px;
     }
+
+    .logo {
+
+        display: flex;
+        margin-left: 15px;
+        padding: 5px;
+
+    }
+
+    .navegacion a {
+
+        font-size: 23px;
+        margin: 7px;
+    }
+
+
+
+
+    .btnportada img {
+        width: 48px;
+        height: 48px;
+        margin-right: 18px;
+        margin-left: 5px;
+    }
+
+    #carrito {
+        width: 45px;
+        height: 45px;
+    }
+
+    /*Footer*/
+    .footer {
+        padding: 16px 0;
+
+    }
+.contenedor{
+    max-width: 1350px;
 }
+
+    .footerlogo img {
+        width: 310px;
+    }
+
+    .footercontenido .footercontacto {
+
+        gap: 65px 32px;
+    }
+
+    .footercontenido img {
+        width: 55px;
+
+    }
+
+    .footercontenido {
+        width: 30px;
+        padding: 0 20px;
+
+
+    }
+
+    .footercontenido h2 {
+
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        padding-bottom: 15px;
+
+
+    }
+
+    .footercontenido ul li a {
+        font-size: 22px;
+
+        margin-bottom: 18px;
+    }
+
+    .derechosdeautor {
+        font-size: 26px;
+    }
+
+    /*Inicio*/
+
+    .contenidoportada {
+
+        max-width: 680px;
+
+
+        margin: 300px auto;
+        height: auto;
+        font-size: 70px;
+
+
+        padding: 25px;
+        border-radius: 18px;
+
+
+    }
+
+
+
+    .indexfondo2 h2 {
+        margin: 35px auto;
+
+        font-size: 40px;
+    }
+
+    .galeria {
+        gap: 36px 76px;
+
+    }
+
+
+    .galeria .imagenesgaleria {
+
+      
+        padding: 25px;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 390px;
+        height: 390px;
+}
+
+    .galeria .imagenesgaleria .contenidogaleria img {
+        width: 340px;
+        height: 340px;
+        margin: auto;
+    }
+
+    .vermas a {
+        margin: 30px auto;
+
+        width: 170px;
+
+        border-radius: 20px;
+
+        font-size: 32px;
+    }
+/*Vivero*/
+.viveromain{
+    margin-bottom: 80px;
+}
+.titulovivero h2 {
+    font-size: 50px;
+    margin-top: 6%;
+    margin-bottom: 40px;
+
+}
+.opcionescompra {
+    gap: 45px 90px;
+}
+
+.opcionescompra .planta {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 405px;
+    aspect-ratio: 700/1184;
+
+}
+
+.opcionescompra .planta .contenidoplanta img {
+    width: 360px;
+    height: 360px;
+    margin: 10px auto;
+}
+
+.opcionescompra .planta .contenidoplanta .nombreplanta {
+    font-size: 43px;
+}
+
+.opcionescompra .planta .contenidoplanta .precioplanta {
+    font-size: 32px;
+}
+
+.btncomprar a {
+    margin: 35px auto;
+    font-size: 29px;
+    padding: 6px;
+}
+/*Sobre Nosotros*/
+.sobrenosotrosfondo h2 {
+    font-size: 48px;
+    padding-top: 7%;
+}
+.sobrenosotros .nosotros {
+    margin-bottom: 250px;
+    width: 88%;
+}
+
+.sobrenosotros .nosotros .contenidosobrenosotros {
+    font-size: 66px;
+    }
+/*Contacto*/
+.contactotitulofondo {
+    
+    margin-top: 60px;
+
+
+
+}
+
+.contenidocontacto h2 {
+    
+    font-size: 58px;
+    }
+
+.tituloscontacto {
+    text-align: center;
+    margin: 45px auto;
+    font-size: 33px;
+}
+
+.contactocontenido .imagenescontacto {
+   
+    gap: 20px 80px;
+}
+
+.imagenescontacto img {
+    width: 140px;
+}
+
+.textocontacto {
+    font-size: 32px;
+}
+.encuestamensaje  /* Encuesta */{
+   padding: 30px;
+    max-width: 760px;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+
+input,select {
+ 
+    height: 40px;
+    font-size: 24px;
+}
+.radio label{
+    font-size: 31px;
+}
+.radio input[type=radio]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.7); /* IE */
+  -moz-transform: scale(1.7); /* FF */
+  -webkit-transform: scale(1.7); /* Safari y Chrome */
+  -o-transform: scale(1.7); /* Opera */
+  margin-right: 10px;
+  
+}
+#enviar {
+    margin-top: 30px;
+}
+
+#enviar {
+
+    font-size: 30px;
+    
+    width: 120px;
+    height: 45px;
+
+}
+
+.mapacontacto .mapa {
+    width: 570px;
+    height: 470px;
+}
+
+/* Inicio sesion */
+
+.iniciosesioncontenedor {
+    
+    margin-top: 140px;
+    margin-bottom: 70px;
+    width: 600px;
+    padding: 40px;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+}
+
+.iniciosesion {
+    width: 500px;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.recordar {
+    margin: 10px;
+}
+.recordar input[type=checkbox]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.6); /* IE */
+  -moz-transform: scale(1.6); /* FF */
+  -webkit-transform: scale(1.6); /* Safari y Chrome */
+  -o-transform: scale(1.6); /* Opera */
+  margin-right: 5px;
+  
+}
+.recordar label{
+    font-size: 26px;
+}
+
+
+.crearcuenta {
+    height: 35px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.iniciosesioncontenedor a{
+    font-size: 20px;
+}
+.crearcuenta a {
+    font-size: 28px;
+}
+
+
+
+/* Registrarse */
+
+.contenedorregistrarse {
+    width: 600px;
+    margin-top: 100px;
+}
+.contenedorregistrarse h2{
+    font-size: 50px;
+}
+
+#crearcuentatitulo {
+    
+    margin-top: 25px;
+}
+
+#btncrearcuenta {
+    
+    font-size: 30px;
+    
+}
+
+}
+@media screen and (min-width:1367px) and (max-width: 1440px) {
+
+    /*Header*/
+    header {
+        width: 100%;
+        height: 60px;
+    }
+
+    .logo {
+
+        display: flex;
+        margin-left: 15px;
+        padding: 5px;
+
+    }
+
+    .navegacion a {
+
+        font-size: 22.5px;
+        margin: 7px;
+    }
+
+
+.btnportada img {
+        width: 47px;
+        height: 47px;
+        margin-right: 18px;
+        margin-left: 5px;
+    }
+
+    #carrito {
+        width: 44px;
+        height: 44px;
+    }
+
+    /*Footer*/
+    .footer {
+        padding: 14px 0;
+
+    }
+.contenedor{
+    max-width: 1300px;
+}
+
+    .footerlogo img {
+        width: 300px;
+    }
+
+    .footercontenido .footercontacto {
+
+        gap: 65px 32px;
+    }
+
+    .footercontenido img {
+        width: 53px;
+
+    }
+
+    .footercontenido {
+        width: 28px;
+        padding: 0 20px;
+
+
+    }
+
+    .footercontenido h2 {
+
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        padding-bottom: 15px;
+
+
+    }
+
+    .footercontenido ul li a {
+        font-size: 22px;
+
+        margin-bottom: 18px;
+    }
+
+    .derechosdeautor {
+        font-size: 25px;
+    }
+
+    /*Inicio*/
+
+    .contenidoportada {
+
+        max-width: 660px;
+
+
+        margin: 300px auto;
+        height: auto;
+        font-size: 68px;
+
+
+        padding: 25px;
+        border-radius: 18px;
+
+
+    }
+
+
+
+    .indexfondo2 h2 {
+        margin: 36px auto;
+
+        font-size: 40px;
+    }
+
+    .galeria {
+        gap: 36px 72px;
+
+    }
+
+
+    .galeria .imagenesgaleria {
+
+      
+        padding: 25px;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 370px;
+        height: 370px;
+}
+
+    .galeria .imagenesgaleria .contenidogaleria img {
+        width: 320px;
+        height: 320px;
+        margin: auto;
+    }
+
+    .vermas a {
+        margin: 30px auto;
+
+        width: 170px;
+
+        border-radius: 20px;
+
+        font-size: 32px;
+    }
+/*Vivero*/
+.viveromain{
+    margin-bottom: 80px;
+}
+.titulovivero h2 {
+    font-size: 44px;
+    margin-top: 7%;
+    margin-bottom: 40px;
+
+}
+.opcionescompra {
+    gap: 45px 75px;
+}
+
+.opcionescompra .planta {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 375px;
+    aspect-ratio: 700/1200;
+
+}
+
+.opcionescompra .planta .contenidoplanta img {
+    width: 330px;
+    height: 330px;
+    margin: 10px auto;
+}
+
+.opcionescompra .planta .contenidoplanta .nombreplanta {
+    font-size: 40.5px;
+}
+
+.opcionescompra .planta .contenidoplanta .precioplanta {
+    font-size: 30px;
+}
+
+.btncomprar a {
+    margin: 35px auto;
+    font-size: 28px;
+    padding: 6px;
+}
+/*Sobre Nosotros*/
+.sobrenosotrosfondo h2 {
+    font-size: 46px;
+    padding-top: 7%;
+}
+.sobrenosotros .nosotros {
+    margin-bottom: 250px;
+    width: 85%;
+}
+
+.sobrenosotros .nosotros .contenidosobrenosotros {
+    font-size: 64px;
+    }
+/*Contacto*/
+.contactotitulofondo {
+    
+    margin-top: 60px;
+
+
+
+}
+
+.contenidocontacto h2 {
+    
+    font-size: 57px;
+    }
+
+.tituloscontacto {
+    text-align: center;
+    margin: 45px auto;
+    font-size: 32px;
+}
+
+.contactocontenido .imagenescontacto {
+   
+    gap: 20px 80px;
+}
+
+.imagenescontacto img {
+    width: 130px;
+}
+
+.textocontacto {
+    font-size: 31px;
+}
+.encuestamensaje  /* Encuesta */{
+   padding: 30px;
+    max-width: 750px;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+
+input,select {
+ 
+    height: 40px;
+    font-size: 24px;
+}
+.radio label{
+    font-size: 31px;
+}
+.radio input[type=radio]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.7); /* IE */
+  -moz-transform: scale(1.7); /* FF */
+  -webkit-transform: scale(1.7); /* Safari y Chrome */
+  -o-transform: scale(1.7); /* Opera */
+  margin-right: 10px;
+  
+}
+#enviar {
+    margin-top: 30px;
+}
+
+#enviar {
+
+    font-size: 30px;
+    
+    width: 120px;
+    height: 45px;
+
+}
+
+.mapacontacto .mapa {
+    width: 580px;
+    height: 480px;
+}
+
+/* Inicio sesion */
+
+.iniciosesioncontenedor {
+    
+    margin-top: 140px;
+    margin-bottom: 70px;
+    width: 600px;
+    padding: 40px;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.iniciosesion {
+    width: 500px;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.recordar {
+    margin: 10px;
+}
+.recordar input[type=checkbox]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.7); /* IE */
+  -moz-transform: scale(1.7); /* FF */
+  -webkit-transform: scale(1.7); /* Safari y Chrome */
+  -o-transform: scale(1.7); /* Opera */
+  margin-right: 5px;
+  
+}
+.recordar label{
+    font-size: 27px;
+}
+
+
+.crearcuenta {
+    height: 35px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.iniciosesioncontenedor a{
+    font-size: 21px;
+}
+.crearcuenta a {
+    font-size: 29px;
+}
+
+
+
+/* Registrarse */
+
+.contenedorregistrarse {
+    width: 650px;
+    margin-top: 100px;
+}
+.contenedorregistrarse h2{
+    font-size: 50px;
+}
+
+#crearcuentatitulo {
+    
+    margin-top: 25px;
+}
+
+#btncrearcuenta {
+    
+    font-size: 30px;
+    
+}
+
+}
+
 
 @media screen and (max-width:800px) {
     .footer-row {
