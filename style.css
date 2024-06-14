@@ -1875,6 +1875,365 @@ h2 {
     }
 
 }
+@media screen and (min-width:415px) and (max-width:480px){
+    /*Header*/
+    header {
+       width: 100%;
+       height: 70px;
+   }
+
+   .logo {
+          display: flex;
+           margin-left: 5px;
+           padding: 5px;
+
+       }
+   
+
+   .navegacion a {
+
+       display:none;
+   }
+
+
+.btnportada img {
+       width: 60px;
+       height: 60px;
+       margin-right: 12px;
+      
+   }
+
+   #carrito {
+       display: none;
+   }
+
+   /*Footer*/
+   .footer {
+       padding: 5px 0;
+
+   }
+   .footer-row {
+       width: 90%;
+       grid-template-columns: repeat(1, 1fr);
+       grid-gap: 20px;
+       padding: 15px 0;
+       display: flex;
+       margin: 0 auto;
+       flex-direction: column;
+}
+
+   .contenedor{
+   max-width: 400px;
+}
+
+   .footerlogo img {
+       width: 260px;
+   }
+
+
+   .footercontenido img {
+       width: 50px;
+
+   }
+
+ 
+
+   .footercontenido h2 {
+
+       font-size: 34px;
+       margin-bottom: 10px;
+       font-weight: 700;
+       padding-bottom: 10px;
+
+
+   }
+
+   .footercontenido ul li a {
+       font-size: 26px;
+
+       margin-bottom: 18px;
+   }
+
+   .derechosdeautor {
+       font-size: 26px;
+   }
+
+   /*Inicio*/
+
+   .contenidoportada {
+
+       max-width: 410px;
+
+
+       margin: 390px auto;
+       font-size: 44px;
+
+
+       padding: 10px;
+       border-radius: 18px;
+
+
+   }
+
+
+
+   .indexfondo2 h2 {
+       margin: 36px auto;
+
+       font-size: 39px;
+   }
+
+   .galeria {
+       gap: 36px 72px;
+
+   }
+
+
+   .galeria .imagenesgaleria {
+
+     
+       padding: 10px;
+       border-radius: 4px;
+       width: 100%;
+       max-width: 390px;
+       height: 390px;
+}
+
+   .galeria .imagenesgaleria .contenidogaleria img {
+       width: 370px;
+       height: 370px;
+       margin: auto;
+   }
+
+   .vermas a {
+       margin: 30px auto;
+
+       width: 160px;
+
+       border-radius: 20px;
+
+       font-size: 36px;
+   }
+/*Vivero*/
+.viveromain{
+   margin-bottom: 80px;
+}
+.titulovivero h2 {
+   font-size: 37px;
+   margin-top: 90px;
+   margin-bottom: 25px;
+
+}
+.opcionescompra {
+   gap: 45px 75px;
+}
+
+.opcionescompra .planta {
+   padding: 10px;
+   border-radius: 15px;
+   max-width: 390px;
+
+}
+
+.opcionescompra .planta .contenidoplanta img {
+   width: 370px;
+   height: 370px;
+   margin: 7px auto;
+}
+
+.opcionescompra .planta .contenidoplanta .nombreplanta {
+   font-size: 40px;
+}
+
+.opcionescompra .planta .contenidoplanta .precioplanta {
+   font-size: 30px;
+}
+
+.btncomprar a {
+   margin: 15px auto;
+   font-size: 29px;
+   padding: 4px;
+}
+/*Sobre Nosotros*/
+.sobrenosotrosfondo h2 {
+   font-size: 40px;
+   padding-top: 120px;
+}
+.sobrenosotros .nosotros {
+   margin-bottom: 110px;
+   width: 95%;
+}
+
+.sobrenosotros .nosotros .contenidosobrenosotros 
+{
+   font-size: 46px;
+   margin:10px 5px;
+   }
+/*Contacto*/
+.contactotitulofondo {
+   
+   margin-top: 70px;
+   
+}
+
+.contenidocontacto h2 {
+   font-size: 50px;
+   margin: 20px auto;
+   }
+
+.tituloscontacto h2{
+   text-align: center;
+   margin: 35px auto;
+   font-size: 38px;
+}
+
+.contactocontenido .imagenescontacto {
+  
+   gap: 10px 45px;
+}
+
+.imagenescontacto img {
+   width: 110px;
+}
+
+.textocontacto {
+   font-size: 39px;
+}
+.encuestamensaje  /* Encuesta */{
+  padding: 10px;
+   max-width: 410px;
+   border: 0;
+}
+
+label {
+   margin-top: 10px;
+   font-size: 31px;
+
+}
+
+input,select {
+
+   height: 35px;
+   font-size: 26px;
+}
+.radio label{
+   font-size: 31px;
+}
+.radio input[type=radio]
+{
+ /* Doble-tamaño Checkboxes */
+ -ms-transform: scale(1.4); /* IE */
+ -moz-transform: scale(1.4); /* FF */
+ -webkit-transform: scale(1.4); /* Safari y Chrome */
+ -o-transform: scale(1.4); /* Opera */
+ margin-right: 8px;
+ 
+}
+#enviar {
+   margin-top: 20px;
+}
+
+#enviar {
+
+   font-size: 28px;
+   
+   width: 115px;
+   height: 40px;
+
+}
+
+.mapacontacto .mapa {
+   width: 410px;
+   height: 370px;
+}
+
+/* Inicio sesion */
+.fondoiniciosesion{
+   background: url(none);
+   background-color: white;
+}
+.iniciosesioncontenedor {
+   
+   margin-top: 100px;
+   margin-bottom: 130px;
+   width: 450px;
+   padding: 10px;
+   border: 0;
+   
+}
+
+h2 {
+   margin-bottom: 10px;
+   font-size: 34px;
+}
+
+.iniciosesion {
+   width: 410px;
+   margin-top: 20px;
+   padding: 20px;
+   
+}
+
+.recordar {
+   margin: 10px;
+}
+.recordar input[type=checkbox]
+{
+ /* Doble-tamaño Checkboxes */
+ -ms-transform: scale(1.3); /* IE */
+ -moz-transform: scale(1.3); /* FF */
+ -webkit-transform: scale(1.3); /* Safari y Chrome */
+ -o-transform: scale(1.3); /* Opera */
+ margin-right: 8px;
+ 
+}
+.recordar label{
+   font-size: 29px;
+}
+
+
+.crearcuenta {
+   height: 35px;
+   width: 170px;
+   margin-top: 15px;
+}
+
+.iniciosesioncontenedor a{
+   font-size: 22px;
+   
+}
+.crearcuenta a {
+   font-size: 29px;
+}
+
+
+
+/* Registrarse */
+.fondoregistrarse{
+   background: url(none);
+
+}
+.contenedorregistrarse {
+   width: 420px;
+   margin-top: 100px;
+   border:0;
+}
+.contenedorregistrarse h2{
+   font-size: 38px;
+}
+
+#crearcuentatitulo {
+   
+   margin-top: 20px;
+}
+
+#btncrearcuenta {
+   
+   font-size: 24px;
+   
+}
+
+}
 @media screen and (min-width:376px) and (max-width:414px){
     /*Header*/
     header {
