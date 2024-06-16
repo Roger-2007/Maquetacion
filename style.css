@@ -16,7 +16,7 @@ html {
 /*Header*/
 header {
     width: 100%;
-    height: 50px;
+    height: 45px;
     background-color: rgb(14, 14, 14);
     top: 0;
     color: white;
@@ -127,7 +127,7 @@ header {
 }
 
 .footerlogo img {
-    width: 15.625rem;
+    width: 240px;
 
 }
 
@@ -240,7 +240,7 @@ header {
     display: flex;
     flex-wrap: wrap;
 
-    gap: 1.25rem 3.125rem;
+    gap: 30px 60px;
     justify-content: center;
 
 }
@@ -250,23 +250,16 @@ header {
 
     background-color: white;
     border: 1px rgb(201, 201, 201) solid;
-    padding: .9375rem;
+    padding: 15px;
     border-radius: .125rem;
     width: 100%;
-    max-width: 320px;
-    height: 320px;
-    
-
-
-
-    /* aspect-ratio: 700/1094; */
-
-
+    max-width: 300px;
+    height: 300px;
 }
 
 .galeria .imagenesgaleria .contenidogaleria img {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     display: block;
     margin: .3125rem auto;
 }
@@ -301,7 +294,7 @@ header {
     text-align: center;
     font-size: 1.875rem;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 7%;
+    margin-top: 70px;
     margin-bottom: 1.875rem;
 
 }
@@ -311,7 +304,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5625rem 3.75rem;
+    gap: 1.875rem 3.75rem;
 
 }
 
@@ -321,7 +314,7 @@ header {
     border-radius: 15px;
     border: rgb(205, 205, 205) 1px solid;
     width: 100%;
-    max-width: 310px;
+    max-width: 300px;
     height: auto;
     overflow: auto;
     aspect-ratio: 700/1094;
@@ -329,15 +322,15 @@ header {
 }
 
 .opcionescompra .planta .contenidoplanta img {
-    width: 17.5rem;
-    height: 17.5rem;
+    width: 260px;
+    height: 260px;
     display: block;
     margin: .3125rem auto;
 }
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
     font-family: "Trochut";
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
@@ -386,7 +379,7 @@ header {
     font-size: 27px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    padding-top: 80px;
+    padding-top: 90px;
 
 }
 
@@ -400,7 +393,7 @@ header {
     border: rgb(153, 153, 153) 2px solid;
     border-radius: .5rem;
     width: 80%;
-    margin: 70px auto;
+    margin: 50px auto;
     margin-bottom: 12.5rem;
 
 }
@@ -420,7 +413,7 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 3.125rem;
+    margin-top: 45px;
 
 
 
@@ -796,7 +789,7 @@ h2 {
     /*Header*/
     header {
         width: 100%;
-        height: 75px;
+        height: 62px;
     }
 
     .logo {
@@ -809,7 +802,7 @@ h2 {
 
     .navegacion a {
 
-        font-size: 24px;
+        font-size: 25px;
         margin: 7px;
     }
 
@@ -838,7 +831,7 @@ h2 {
 }
 
     .footerlogo img {
-        width: 320px;
+        width: 300px;
     }
 
     .footercontenido .footercontacto {
@@ -860,7 +853,7 @@ h2 {
 
     .footercontenido h2 {
 
-        font-size: 34px;
+        font-size: 33px;
         margin-bottom: 20px;
         font-weight: 600;
         padding-bottom: 15px;
@@ -869,13 +862,13 @@ h2 {
     }
 
     .footercontenido ul li a {
-        font-size: 24px;
+        font-size: 23px;
 
         margin-bottom: 18px;
     }
 
     .derechosdeautor {
-        font-size: 28px;
+        font-size: 27px;
     }
 
     /*Inicio*/
@@ -887,7 +880,7 @@ h2 {
 
         margin: 350px auto;
         height: auto;
-        font-size: 70px;
+        font-size: 69px;
 
 
         padding: 25px;
@@ -900,48 +893,42 @@ h2 {
 
     .indexfondo2 h2 {
         margin: 35px auto;
-
         font-size: 42px;
     }
 
     .galeria {
-        gap: 36px 76px;
-
+        gap: 40px 80px;
+margin: 0 auto;
+        max-width: 1750px;
     }
 
 
     .galeria .imagenesgaleria {
 
       
-        padding: 25px;
-        border-radius: 4px;
-        width: 100%;
-        max-width: 420px;
-        height: 420px;
+        padding: 10px;
+        border-radius: 6px;
+        max-width: 390px;
+        height: 390px;
 }
 
     .galeria .imagenesgaleria .contenidogaleria img {
         width: 370px;
         height: 370px;
-        margin: auto;
     }
 
     .vermas a {
         margin: 30px auto;
-
-        width: 180px;
-
-        border-radius: 20px;
-
-        font-size: 36px;
+        width: 170px;
+        font-size: 34px;
     }
 /*Vivero*/
 .viveromain{
     margin-bottom: 60px;
 }
 .titulovivero h2 {
-    font-size: 50px;
-    margin-top: 5%;
+    font-size: 45px;
+    margin-top: 90px;
     margin-bottom: 35px;
 
 }
@@ -949,28 +936,30 @@ h2 {
 
 .opcionescompra {
     gap: 45px 90px;
+    max-width: 1750px;
+    margin: 0 auto;
 }
 
 .opcionescompra .planta {
     padding: 20px;
     border-radius: 15px;
-    max-width: 420px;
+    max-width: 400px;
     aspect-ratio: 700/1184;
 
 }
 
 .opcionescompra .planta .contenidoplanta img {
-    width: 380px;
-    height: 380px;
+    width: 365px;
+    height: 365px;
     margin: 10px auto;
 }
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
-    font-size: 45px;
+    font-size: 42px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 .btncomprar a {
@@ -980,8 +969,8 @@ h2 {
 }
 /*Sobre Nosotros*/
 .sobrenosotrosfondo h2 {
-    font-size: 50px;
-    padding-top: 7%;
+    font-size: 48px;
+    padding-top: 120px;
 }
 .sobrenosotros .nosotros {
     margin-bottom: 250px;
@@ -993,7 +982,7 @@ h2 {
 /*Contacto*/
 .contactotitulofondo {
     
-    margin-top: 70px;
+    margin-top: 60px;
 
 
 
@@ -1016,7 +1005,7 @@ h2 {
 }
 
 .imagenescontacto img {
-    width: 150px;
+    width: 130px;
 }
 
 .textocontacto {
@@ -1024,22 +1013,22 @@ h2 {
 }
 .encuestamensaje  /* Encuesta */{
    padding: 30px;
-    max-width: 780px;
+    max-width: 720px;
 }
 
 label {
     margin-top: 20px;
-    font-size: 37px;
+    font-size: 35px;
 
 }
 
 input,select {
  
     height: 40px;
-    font-size: 26px;
+    font-size: 24px;
 }
 .radio label{
-    font-size: 33px;
+    font-size: 31px;
 }
 .radio input[type=radio]
 {
@@ -1057,16 +1046,16 @@ input,select {
 
 #enviar {
 
-    font-size: 32px;
+    font-size: 30px;
     
-    width: 140px;
+    width: 130px;
     height: 50px;
 
 }
 
 .mapacontacto .mapa {
     width: 580px;
-    height: 480px;
+    height: 420px;
 }
 
 /* Inicio sesion */
@@ -1082,7 +1071,7 @@ input,select {
 
 h2 {
     margin-bottom: 10px;
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .iniciosesion {
@@ -1106,7 +1095,7 @@ h2 {
   
 }
 .recordar label{
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
@@ -1132,7 +1121,7 @@ h2 {
     margin-top: 100px;
 }
 .contenedorregistrarse h2{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 #crearcuentatitulo {
@@ -1142,7 +1131,7 @@ h2 {
 
 #btncrearcuenta {
     
-    font-size: 30px;
+    font-size: 29px;
     
 }
 
@@ -1153,7 +1142,7 @@ h2 {
     /*Header*/
     header {
         width: 100%;
-        height: 65px;
+        height: 63px;
     }
 
     .logo {
@@ -1217,7 +1206,7 @@ h2 {
 
     .footercontenido h2 {
 
-        font-size: 32px;
+        font-size: 31px;
         margin-bottom: 20px;
         font-weight: 500;
         padding-bottom: 15px;
@@ -1239,18 +1228,12 @@ h2 {
 
     .contenidoportada {
 
-        max-width: 680px;
-
-
-        margin: 300px auto;
+        max-width: 660px;
+         margin: 300px auto;
         height: auto;
-        font-size: 70px;
-
-
+        font-size: 67px;
         padding: 25px;
         border-radius: 18px;
-
-
     }
 
 
@@ -1270,35 +1253,35 @@ h2 {
     .galeria .imagenesgaleria {
 
       
-        padding: 25px;
+        padding: 10px;
         border-radius: 4px;
         width: 100%;
-        max-width: 390px;
-        height: 390px;
+        max-width: 360px;
+        height: 360px;
 }
 
     .galeria .imagenesgaleria .contenidogaleria img {
-        width: 340px;
-        height: 340px;
+        width: 330px;
+        height: 330px;
         margin: auto;
     }
 
     .vermas a {
         margin: 30px auto;
 
-        width: 170px;
+        width: 165px;
 
         border-radius: 20px;
 
-        font-size: 32px;
+        font-size: 30px;
     }
 /*Vivero*/
 .viveromain{
     margin-bottom: 80px;
 }
 .titulovivero h2 {
-    font-size: 50px;
-    margin-top: 6%;
+    font-size: 42px;
+    margin-top: 100px;
     margin-bottom: 40px;
 
 }
@@ -1309,23 +1292,23 @@ h2 {
 .opcionescompra .planta {
     padding: 20px;
     border-radius: 15px;
-    max-width: 405px;
+    max-width: 390px;
     aspect-ratio: 700/1184;
 
 }
 
 .opcionescompra .planta .contenidoplanta img {
-    width: 360px;
-    height: 360px;
+    width: 340px;
+    height: 340px;
     margin: 10px auto;
 }
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
-    font-size: 43px;
+    font-size: 41px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .btncomprar a {
@@ -1335,8 +1318,8 @@ h2 {
 }
 /*Sobre Nosotros*/
 .sobrenosotrosfondo h2 {
-    font-size: 48px;
-    padding-top: 7%;
+    font-size: 43px;
+    padding-top: 90px;
 }
 .sobrenosotros .nosotros {
     margin-bottom: 250px;
@@ -1344,7 +1327,7 @@ h2 {
 }
 
 .sobrenosotros .nosotros .contenidosobrenosotros {
-    font-size: 66px;
+    font-size: 62px;
     }
 /*Contacto*/
 .contactotitulofondo {
@@ -1372,7 +1355,7 @@ h2 {
 }
 
 .imagenescontacto img {
-    width: 140px;
+    width: 130px;
 }
 
 .textocontacto {
@@ -1380,22 +1363,22 @@ h2 {
 }
 .encuestamensaje  /* Encuesta */{
    padding: 30px;
-    max-width: 760px;
+    max-width: 690px;
 }
 
 label {
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 32px;
 
 }
 
 input,select {
  
     height: 40px;
-    font-size: 24px;
+    font-size: 22px;
 }
 .radio label{
-    font-size: 31px;
+    font-size: 28px;
 }
 .radio input[type=radio]
 {
@@ -1413,16 +1396,16 @@ input,select {
 
 #enviar {
 
-    font-size: 30px;
+    font-size: 28px;
     
-    width: 120px;
+    width: 110px;
     height: 45px;
 
 }
 
 .mapacontacto .mapa {
     width: 570px;
-    height: 470px;
+    height: 400px;
 }
 
 /* Inicio sesion */
@@ -1438,7 +1421,7 @@ input,select {
 
 h2 {
     margin-bottom: 10px;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .iniciosesion {
@@ -1462,7 +1445,7 @@ h2 {
   
 }
 .recordar label{
-    font-size: 26px;
+    font-size: 25px;
 }
 
 
@@ -1473,7 +1456,7 @@ h2 {
 }
 
 .iniciosesioncontenedor a{
-    font-size: 20px;
+    font-size: 21px;
 }
 .crearcuenta a {
     font-size: 28px;
@@ -1488,7 +1471,7 @@ h2 {
     margin-top: 100px;
 }
 .contenedorregistrarse h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #crearcuentatitulo {
@@ -1498,7 +1481,7 @@ h2 {
 
 #btncrearcuenta {
     
-    font-size: 30px;
+    font-size: 27px;
     
 }
 
@@ -1508,7 +1491,7 @@ h2 {
     /*Header*/
     header {
         width: 100%;
-        height: 60px;
+        height: 55px;
     }
 
     .logo {
@@ -1521,7 +1504,7 @@ h2 {
 
     .navegacion a {
 
-        font-size: 22.5px;
+        font-size: 22px;
         margin: 7px;
     }
 
@@ -1548,7 +1531,7 @@ h2 {
 }
 
     .footerlogo img {
-        width: 300px;
+        width: 260px;
     }
 
     .footercontenido .footercontacto {
@@ -1570,7 +1553,7 @@ h2 {
 
     .footercontenido h2 {
 
-        font-size: 32px;
+        font-size: 30px;
         margin-bottom: 20px;
         font-weight: 500;
         padding-bottom: 15px;
@@ -1579,13 +1562,13 @@ h2 {
     }
 
     .footercontenido ul li a {
-        font-size: 22px;
+        font-size: 20px;
 
         margin-bottom: 18px;
     }
 
     .derechosdeautor {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     /*Inicio*/
@@ -1597,7 +1580,7 @@ h2 {
 
         margin: 300px auto;
         height: auto;
-        font-size: 68px;
+        font-size: 66px;
 
 
         padding: 25px;
@@ -1611,7 +1594,7 @@ h2 {
     .indexfondo2 h2 {
         margin: 36px auto;
 
-        font-size: 40px;
+        font-size: 34px;
     }
 
     .galeria {
@@ -1623,35 +1606,35 @@ h2 {
     .galeria .imagenesgaleria {
 
       
-        padding: 25px;
+        padding: 15px;
         border-radius: 4px;
         width: 100%;
-        max-width: 370px;
-        height: 370px;
+        max-width: 340px;
+        height: 340px;
 }
 
     .galeria .imagenesgaleria .contenidogaleria img {
-        width: 320px;
-        height: 320px;
+        width: 310px;
+        height: 310px;
         margin: auto;
     }
 
     .vermas a {
         margin: 30px auto;
 
-        width: 170px;
+        width: 160px;
 
         border-radius: 20px;
 
-        font-size: 32px;
+        font-size: 30px;
     }
 /*Vivero*/
 .viveromain{
     margin-bottom: 80px;
 }
 .titulovivero h2 {
-    font-size: 44px;
-    margin-top: 7%;
+    font-size: 38px;
+    margin-top: 90px;
     margin-bottom: 40px;
 
 }
@@ -1662,19 +1645,19 @@ h2 {
 .opcionescompra .planta {
     padding: 20px;
     border-radius: 15px;
-    max-width: 375px;
+    max-width: 350px;
     aspect-ratio: 700/1200;
 
 }
 
 .opcionescompra .planta .contenidoplanta img {
-    width: 330px;
-    height: 330px;
+    width: 305px;
+    height: 305px;
     margin: 10px auto;
 }
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
-    font-size: 40.5px;
+    font-size: 36px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
@@ -1683,29 +1666,26 @@ h2 {
 
 .btncomprar a {
     margin: 35px auto;
-    font-size: 28px;
+    font-size: 25px;
     padding: 6px;
 }
 /*Sobre Nosotros*/
 .sobrenosotrosfondo h2 {
-    font-size: 46px;
-    padding-top: 7%;
+    font-size: 40px;
+    padding-top: 100px;
 }
 .sobrenosotros .nosotros {
-    margin-bottom: 250px;
+    margin-bottom: 230px;
     width: 85%;
 }
 
 .sobrenosotros .nosotros .contenidosobrenosotros {
-    font-size: 64px;
+    font-size: 58px;
     }
 /*Contacto*/
 .contactotitulofondo {
     
-    margin-top: 60px;
-
-
-
+    margin-top: 55px;
 }
 
 .contenidocontacto h2 {
@@ -1716,7 +1696,7 @@ h2 {
 .tituloscontacto {
     text-align: center;
     margin: 45px auto;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .contactocontenido .imagenescontacto {
@@ -1725,30 +1705,30 @@ h2 {
 }
 
 .imagenescontacto img {
-    width: 130px;
+    width: 120px;
 }
 
 .textocontacto {
-    font-size: 31px;
+    font-size: 30px;
 }
 .encuestamensaje  /* Encuesta */{
    padding: 30px;
-    max-width: 750px;
+    max-width: 690px;
 }
 
 label {
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 
 input,select {
  
     height: 40px;
-    font-size: 24px;
+    font-size: 22px;
 }
 .radio label{
-    font-size: 31px;
+    font-size: 30px;
 }
 .radio input[type=radio]
 {
@@ -1766,16 +1746,16 @@ input,select {
 
 #enviar {
 
-    font-size: 30px;
+    font-size: 29px;
     
-    width: 120px;
+    width: 115px;
     height: 45px;
 
 }
 
 .mapacontacto .mapa {
-    width: 580px;
-    height: 480px;
+    width: 480px;
+    height: 350px;
 }
 
 /* Inicio sesion */
@@ -1791,7 +1771,7 @@ input,select {
 
 h2 {
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .iniciosesion {
@@ -1815,7 +1795,7 @@ h2 {
   
 }
 .recordar label{
-    font-size: 27px;
+    font-size: 25px;
 }
 
 
@@ -1829,7 +1809,7 @@ h2 {
     font-size: 21px;
 }
 .crearcuenta a {
-    font-size: 29px;
+    font-size: 28px;
 }
 
 
@@ -1841,7 +1821,7 @@ h2 {
     margin-top: 100px;
 }
 .contenedorregistrarse h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #crearcuentatitulo {
@@ -1851,7 +1831,7 @@ h2 {
 
 #btncrearcuenta {
     
-    font-size: 30px;
+    font-size: 27px;
     
 }
 
@@ -1879,13 +1859,13 @@ h2 {
     /*Header*/
     header {
        width: 100%;
-       height: 70px;
+       height: 65px;
    }
 
    .logo {
           display: flex;
            margin-left: 5px;
-           padding: 5px;
+           padding: 7px;
 
        }
    
@@ -1897,8 +1877,8 @@ h2 {
 
 
 .btnportada img {
-       width: 60px;
-       height: 60px;
+       width: 57px;
+       height: 57px;
        margin-right: 15px;
       
    }
@@ -1927,12 +1907,12 @@ h2 {
 }
 
    .footerlogo img {
-       width: 250px;
+       width: 230px;
    }
 
 
    .footercontenido img {
-       width: 50px;
+       width: 48px;
 
    }
 
@@ -1940,7 +1920,7 @@ h2 {
 
    .footercontenido h2 {
 
-       font-size: 32px;
+       font-size: 26px;
        margin-bottom: 10px;
        font-weight: 700;
        padding-bottom: 10px;
@@ -1949,24 +1929,24 @@ h2 {
    }
 
    .footercontenido ul li a {
-       font-size: 24px;
+       font-size: 20px;
 
        margin-bottom: 18px;
    }
 
    .derechosdeautor {
-       font-size: 24px;
+       font-size: 20px;
    }
 
    /*Inicio*/
 
    .contenidoportada {
 
-       max-width: 410px;
+       max-width: 400px;
 
 
        margin: 250px auto;
-       font-size: 45px;
+       font-size: 43px;
 
 
        padding: 10px;
@@ -1980,7 +1960,7 @@ h2 {
    .indexfondo2 h2 {
        margin: 36px auto;
 
-       font-size: 37px;
+       font-size: 34px;
    }
 
    .galeria {
@@ -1992,34 +1972,34 @@ h2 {
    .galeria .imagenesgaleria {
 
      
-       padding: 15px;
+       padding: 10px;
        border-radius: 4px;
        width: 100%;
-       max-width: 380px;
-       height: 380px;
+       max-width: 340px;
+       height: 340px;
 }
 
    .galeria .imagenesgaleria .contenidogaleria img {
-       width: 350px;
-       height: 350px;
+       width: 320px;
+       height: 320px;
        margin: auto;
    }
 
    .vermas a {
        margin: 30px auto;
 
-       width: 160px;
+       width: 140px;
 
        border-radius: 20px;
 
-       font-size: 33px;
+       font-size: 29px;
    }
 /*Vivero*/
 .viveromain{
    margin-bottom: 90px;
 }
 .titulovivero h2 {
-   font-size: 37px;
+   font-size: 32px;
    margin-top: 90px;
    margin-bottom: 25px;
 
@@ -2031,32 +2011,32 @@ h2 {
 .opcionescompra .planta {
    padding: 10px;
    border-radius: 15px;
-   max-width: 380px;
+   max-width: 340px;
 
 }
 
 .opcionescompra .planta .contenidoplanta img {
-   width: 360px;
-   height: 360px;
+   width: 300px;
+   height: 300px;
    margin: 7px auto;
 }
 
 .opcionescompra .planta .contenidoplanta .nombreplanta {
-   font-size: 40px;
+   font-size: 38px;
 }
 
 .opcionescompra .planta .contenidoplanta .precioplanta {
-   font-size: 30px;
+   font-size: 28px;
 }
 
 .btncomprar a {
    margin: 15px auto;
-   font-size: 29px;
+   font-size: 28px;
    padding: 4px;
 }
 /*Sobre Nosotros*/
 .sobrenosotrosfondo h2 {
-   font-size: 40px;
+   font-size: 38px;
    padding-top: 120px;
 }
 .sobrenosotros .nosotros {
@@ -2066,13 +2046,13 @@ h2 {
 
 .sobrenosotros .nosotros .contenidosobrenosotros 
 {
-   font-size: 46px;
+   font-size: 45px;
    margin:10px 5px;
    }
 /*Contacto*/
 .contactotitulofondo {
    
-   margin-top: 70px;
+   margin-top: 65px;
    
 }
 
@@ -2083,7 +2063,7 @@ h2 {
 
 .tituloscontacto h2{
    text-align: center;
-   margin: 35px auto;
+   margin: 40px auto;
    font-size: 38px;
 }
 
@@ -2093,11 +2073,11 @@ h2 {
 }
 
 .imagenescontacto img {
-   width: 110px;
+   width: 95px;
 }
 
 .textocontacto {
-   font-size: 39px;
+   font-size: 36px;
 }
 .encuestamensaje  /* Encuesta */{
   padding: 10px;
@@ -2107,7 +2087,7 @@ h2 {
 
 label {
    margin-top: 10px;
-   font-size: 31px;
+   font-size: 28px;
 
 }
 
@@ -2117,7 +2097,7 @@ input,select {
    font-size: 26px;
 }
 .radio label{
-   font-size: 31px;
+   font-size: 27px;
 }
 .radio input[type=radio]
 {
@@ -2143,8 +2123,8 @@ input,select {
 }
 
 .mapacontacto .mapa {
-   width: 410px;
-   height: 340px;
+   width: 400px;
+   height: 300px;
 }
 
 /* Inicio sesion */
@@ -2157,14 +2137,14 @@ input,select {
    margin-top: 100px;
    margin-bottom: 130px;
    width: 420px;
-   padding: 10px;
+   padding: 5px;
    border: 0;
    
 }
 
 h2 {
    margin-bottom: 10px;
-   font-size: 33px;
+   font-size: 30px;
 }
 
 .iniciosesion {
@@ -2188,13 +2168,13 @@ h2 {
  
 }
 .recordar label{
-   font-size: 28px;
+   font-size: 26px;
 }
 
 
 .crearcuenta {
-   height: 35px;
-   width: 170px;
+   height: 32px;
+   width: 180px;
    margin-top: 15px;
 }
 
@@ -2203,7 +2183,8 @@ h2 {
    
 }
 .crearcuenta a {
-   font-size: 28px;
+   font-size: 25px;
+  
 }
 
 
@@ -2219,7 +2200,7 @@ h2 {
    border:0;
 }
 .contenedorregistrarse h2{
-   font-size: 36px;
+   font-size: 32px;
 }
 
 #crearcuentatitulo {
